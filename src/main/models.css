@@ -1,0 +1,182 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+/* Header y modelo destacado */
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:visited {
+    color: black;
+}
+
+
+/* Modelos y colores */
+
+.models {
+    padding: 2.5em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 4%; 
+    width: 98vw;
+    height: 80vw;
+    /* background-color: orange; */
+    
+  }
+
+  @media (max-width: 800px) {
+    .models {
+      min-width: 500px;
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      gap: 40px;
+
+    }
+    .cardetails {
+      
+      margin-bottom: 1em;
+    }
+}
+
+
+  
+.model {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.carname {
+
+  height: 25%;
+  width: 80%;
+
+}
+
+.carname h3 {
+  color: black;
+  font-weight: 100;
+}
+
+.carname p {
+  font-size: small;
+  color: black;
+}
+
+.carimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
+
+.carimage img {
+  width: 100%;
+
+}
+
+.cardetails {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 30%;
+  width: 90%;
+
+}
+
+.moreinfobutton {
+                width: 7em;
+                height: 30px;
+                border-radius: 3rem;
+                border: 0;
+                background-color: white;
+                cursor: pointer;
+                transition: 0.3;
+}
+
+.moreinfobutton:hover {
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra en el hover */
+}
+
+.carcolors {
+                width: 50%;
+                height: 2rem;
+                display: flex;
+                justify-content: flex-end;
+                gap: 1rem;
+                background-color: transparent;
+}
+
+.btn {
+  width: 30px;
+  height: 30px;                  
+  border-radius: 30px;                  
+  border: 0px solid black;                  
+  cursor: pointer;                  
+  transition: 0.3s;                                    
+}
+
+.btn:hover {
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 1); /* Sombra en el hover */
+}
+
+.black {
+  background-color: black;
+}
+ .white {
+  background-color: white;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: rgb(176, 175, 68);
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+
+.btn:active {
+  border: 5px double black;
+
+}
+
+       
+                
+
+  .pie {
+    width: 100%;
+    padding-left: 2em;
+  }
+
+  .pie h2 {
+    font-size: 3.5em;
+    font-weight: 100;
+  }

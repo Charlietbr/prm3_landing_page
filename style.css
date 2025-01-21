@@ -1,0 +1,44 @@
+@import url(./src/navigationBar/styleNavigation.css);
+@import url(./src/footer/styleFooter.css);
+@import url(./src/main/new.css);
+@import url(./src/main/models.css);
+@import url(./src/main/dealers.css);
+@import url(./src/main/highlights.css);
+@import url(./src/main/maybach.css);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 300px;
+
+}
+
+header, main, footer {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+main {
+    /*background-color: rgb(157, 125, 165);*/
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+

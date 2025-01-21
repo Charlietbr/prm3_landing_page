@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: black;
+    color: white;
+
+    height: 750px;
+    padding-top: 5em;
+    padding-bottom: 5em;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 100;
+    
+
+
+}   
+
+footer h3 {
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    font-weight: 300;
+}
+
+footer > :first-child {
+    width: 90%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 1em;
+    font-size: small;
+}
+
+#joinnews {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(202, 202, 202);
+    padding: 0px;
+    border-radius: 2em;
+    width: 50%;
+    padding: 0;
+    margin: 1em;
+
+
+}
+#joinnews > div {
+
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 10em;
+    font-size: smaller;
+    background-color: transparent;
+}
+#joinnews > input {
+    background-color: transparent;
+    border: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#joinnews > button {
+    height: 3em;
+    width: 10em;
+    border-radius: 2em;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+#agree {
+    display: flex;
+    flex-direction: row;
+}
+#agreecheck {
+    background-color: transparent;
+    color: black;
+}
+#agree span {
+    text-decoration: underline;
+}
+
+
+#social img{
+    margin: 1em;
+    margin-top: 2em;
+    height: 1.5em;
+}
+
+#moresections {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 600px) {
+    #moresections {
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .sectionsarea {
+        margin-bottom: 3em;
+        align-items: center;
+        text-align: center;
+    
+    }
+    footer {
+        height: 1300px;
+        padding-bottom: 0;
+    }
+}
+
+#moresections h3 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+#moresections li {
+    margin-top: 0.3em;
+    font-size: small;
+}
+

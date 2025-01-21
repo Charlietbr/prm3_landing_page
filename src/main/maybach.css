@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+#maybach {
+    font-family: "Montserrat", sans-serif;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+
+#mainMaybach > img {
+    width: 100%;
+}
+
+#maybach h3 {
+    margin-top: 0.3em;
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    font-weight: 400;
+    text-align: left;
+}
+
+#maybach p {
+    font-size: 0.6em;
+    width: 50%;
+}
+
+#overlayMaybach {
+    position: absolute;
+    z-index: 1;
+    width: 50%;
+    height: 20%;
+    top: 1%;
+    /* left: 3%; */
+    padding-left: 2em;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+#wheels{
+    position: relative;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 6em;
+    margin-bottom: 6em;
+
+}
+
+#wheels h3 {
+    font-size: 3em;
+}
+
+#wheels img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+@media screen and (max-width: 799px) {
+    #wheels {
+        display: none;
+    }
+    #maybach {
+        align-items: center;
+    }
+    #maybach h3 {
+        text-align: center;
+    }
+
+    #wheelSmall div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #wheelSmall p {
+        text-align: center;
+        width: 80%;
+        margin: 2em;
+    }
+    #wheelSmall img {
+        width: 100%;
+
+    }
+    #overlayMaybach {
+        position: relative;
+        width: 80%;
+        height: 20%;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+        border-radius: 15px;
+    }
+    #overlayMaybach p {
+        width: 80%;
+        font-size: 1em;
+        text-align: center;
+    }
+}
+
+
+#wheelSmall{
+    height: auto;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 2em;  
+    margin-bottom: 2em;
+}
+
+#wheelSmall img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+
+}
+
+
+@media screen and (min-width: 800px) {
+    #wheelSmall {
+        display: none;
+    }
+}

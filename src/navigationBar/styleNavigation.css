@@ -1,0 +1,96 @@
+/* CSS para la barra superior y sus subdivisiones*/
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+#topnav {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 5px;
+    justify-content: space-between;
+    height: 1.1rem;
+    width: 98%;
+    
+}
+
+#topnav a {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#topnavleft {
+    height: 3rem;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#topnavleftsmall {
+    display: none;
+}
+
+#hammenu {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+ 
+    #topnavleft {
+        display: none;
+    }
+
+    #topnavleftsmall {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #hammenu{
+        display: flex;
+    }
+
+    #topnavright{
+        width: 40%;
+    }
+} 
+    
+#logocontainer {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+}
+
+.logosmall {
+    height: 3rem;
+}
+
+.logosmaller {
+    height: 1.5rem;
+}
+
+
+#topnavleft ul {
+    display: flex;
+    justify-content:space-evenly;
+    min-width: 400px;
+
+}
+
+#topnavright {
+    align-items: flex-end;
+    
+
+}
+
+#topnavright ul {
+    display: flex;
+    justify-content:space-evenly;
+    min-width: 100px;
+}
+
