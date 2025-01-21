@@ -103,23 +103,30 @@ a:visited {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 30%;
+  height: 17%;
   width: 90%;
 
 }
 
 .moreinfobutton {
-                width: 7em;
-                height: 30px;
-                border-radius: 3rem;
-                border: 0;
-                background-color: white;
-                cursor: pointer;
-                transition: 0.3;
+  width: 7em;
+  height: 30px;
+  border-radius: 3rem;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 0.5em;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+                
 }
 
 .moreinfobutton:hover {
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra en el hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra en el hover */
+  
 }
 
 .carcolors {
@@ -137,7 +144,8 @@ a:visited {
   border-radius: 30px;                  
   border: 0px solid black;                  
   cursor: pointer;                  
-  transition: 0.3s;                                    
+  transition: 0.3s;
+  color: transparent;                                    
 }
 
 .btn:hover {
