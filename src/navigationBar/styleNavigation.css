@@ -60,7 +60,7 @@
     }
 } 
     
-#logocontainer {
+.logocontainer {
     display: flex;
     justify-content: center;
     width: 10%;
