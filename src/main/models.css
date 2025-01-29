@@ -26,7 +26,7 @@ a:visited {
 /* Modelos y colores */
 
 .models {
-  padding: 2.5em 0; /* Evita desbordamiento horizontal */
+  padding: 2.5em 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -38,31 +38,30 @@ a:visited {
 
 @media (max-width: 800px) {
   .models {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      height: auto;
-      gap: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 40px;
 
-    }
-    .cardetails {
+  }
+  .cardetails {
       
-      margin-bottom: 1em;
-    }
+    margin-bottom: 1em;
+  }
 }
 
 
   
 .model {
-    background-color: lightgray;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
-    font-size: 2rem;
-    color: white;
-    border-radius: 10px;
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+  border-radius: 10px;
 
 }
 
@@ -129,12 +128,12 @@ a:visited {
 }
 
 .carcolors {
-                width: 50%;
-                height: 2rem;
-                display: flex;
-                justify-content: flex-end;
-                gap: 1rem;
-                background-color: transparent;
+  width: 50%;
+  height: 2rem;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  background-color: transparent;
 }
 
 .btn {
@@ -148,7 +147,7 @@ a:visited {
 }
 
 .btn:hover {
-                    box-shadow: 0 4px 8px var(--genBtShadow);
+  box-shadow: 0 4px 8px var(--genBtShadow);
 }
 
 .black {
