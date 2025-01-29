@@ -84,6 +84,7 @@ footer p {
 #agree {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 #agreecheck {
     background-color: transparent;

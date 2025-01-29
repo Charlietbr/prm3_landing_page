@@ -1,0 +1,15 @@
+
+:root {
+    --generalBgColor: white;
+    --cardsBgColor: lightgray;
+    --infoBtShadow: rgba(0, 0, 0, 0.3); /* Sombra en el hover botones grandes*/
+    --genBtShadow: rgba(0, 0, 0, 1); /* Sombra en el hover botones configurador color */
+    --blackCarConfig: black;
+    --whiteCarConfig: white;
+    --redCarConfig: rgb(255, 25, 0);
+    --greenCarConfig: rgb(156, 154, 36);
+    --blueCarConfig: rgb(23, 92, 254);
+    --yellowCarConfig: yellow;
+}
+
+
